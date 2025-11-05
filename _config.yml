@@ -2,8 +2,10 @@
 # --- Required options --- #
 ############################
 
-title: Studiosaan          # Name of website
+title: Arion-Ayin          # Name of website
 author: Lio
+url: "https://Arion-Ayin.github.io"
+baseurl: "" 
 
 ###############################################
 # --- List of links in the navigation bar --- #
