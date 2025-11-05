@@ -46,7 +46,6 @@ share-links-active:
   youtube: true
   discord: true
 
-url-pretty: "MyWebsite.com"
 title-on-all-pages: true
 
 excerpt_length: 50
