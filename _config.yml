@@ -1,0 +1,121 @@
+############################
+# --- Required options --- #
+############################
+
+title: Studiosaan          # Name of website
+author: Lio
+
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+  About Me: "/aboutme/"
+  Astrology:
+    - Daily Horoscopes: "/dailyhoroscopes/"
+    - Personal Horoscope: "/personalhoroscope/"
+  Contact me: "/contactme/"
+
+################
+# --- Logo --- #
+################
+avatar: "/assets/img/avatar-icon.png"
+round-avatar: true
+logo_link: "/"        # ← 로고 클릭 시 이동 경로
+
+#####################################
+# --- Footer social media links --- #
+#####################################
+
+social-network-links:
+  email: "studiosaan33@gmail.com"
+  rss: true
+  youtube: "@daattali"
+  discord: "invite_code"
+
+rss-description: This website is a virtual proof that I'm awesome
+
+###########################
+# --- General options --- #
+###########################
+
+share-links-active:
+  instagram: true
+  youtube: true
+  discord: true
+
+url-pretty: "MyWebsite.com"
+title-on-all-pages: true
+
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+
+post_search: true
+edit_page_button: true
+navbar-var-length: false
+
+######################################
+# --- Colours / background image --- #
+######################################
+
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
+
+#################
+# --- Misc ---- #
+#################
+
+date_format: "%B %-d, %Y"
+timezone: "Asia/Seoul"
+
+############################
+# --- Jekyll internals --- #
+############################
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
