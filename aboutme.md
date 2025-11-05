@@ -1,12 +1,12 @@
 ---
 layout: page
 title:  About Me
-subtitle: 🦁 Studio Saan is fathom the world with the eyes of a lion.
+subtitle: 🦁 Arion-Ayin is fathom the world with the eyes of a lion.
 ---
 
-## 🪐 About Studio Saan
+## 🪐 About Arion-Ayin
 
-**Studio Saan**은 사자의 눈으로 세계를 꿰뚫어보는, 통찰의 작업실입니다.  
+**Arion-Ayin**은 사자의 눈으로 세계를 꿰뚫어보는, 통찰의 작업실입니다.  
 점성학(Astrology), 기술(Technology), 교육(Education)의 교차점에서, 우리는 인간과 우주의 언어를 해석하려 합니다.
 
 ---
@@ -18,7 +18,7 @@ subtitle: 🦁 Studio Saan is fathom the world with the eyes of a lion.
 우주는 끊임없이 말을 겁니다.  
 태양, 달, 별, 행성 — 이들의 움직임은 인간 내면의 흐름과 밀접하게 연결되어 있습니다.
 
-Studio Saan은 다음과 같은 분야에 집중합니다:
+Arion-Ayin은 다음과 같은 분야에 집중합니다:
 
 - 🌙 **문 위상(Moon Phase)**: 감정의 흐름과 잠재 의식의 리듬을 이해합니다.  
 - ♒ **트랜짓 & 프로그레션(Transit & Progression)**: 당신의 인생 흐름에 맞춘 타이밍 전략을 제안합니다.  
@@ -43,15 +43,13 @@ Studio Saan은 다음과 같은 분야에 집중합니다:
 2028년 프로그레션 뉴문 시기를 기점으로 외부 서비스가 확대될 예정입니다.
 
 관심이 있다면 언제든 문의주세요.  
-Studio Saan은 당신이 **우주의 언어로 자신을 이해할 수 있도록** 돕습니다.
+Arion-Ayin은 당신이 **우주의 언어로 자신을 이해할 수 있도록** 돕습니다.
 
 ---
 
 ## ☀️ 함께 작업하고 싶은가요?
 
-- 📧 [studiosaan33@gmail.com](mailto:studiosaan33@gmail.com)
-- 🦁 Instagram, YouTube 준비 중
-
+- 📧 [arion.ayin@gmail.com](mailto:arion.ayin@gmail.com)
 ---
 
 > “점성학은 미래를 예언하는 것이 아니라,  
