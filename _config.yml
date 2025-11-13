@@ -4,19 +4,11 @@
 
 title: Arion-Ayin          # Name of website
 author: Lio
+description: "Astrology, Numerology, and other mystical topics. Explore the world of the unseen with Arion-Ayin."
 url: "https://Arion-Ayin.github.io"
 baseurl: "" 
 
-###############################################
-# --- List of links in the navigation bar --- #
-###############################################
 
-navbar-links:
-  About Me: "/aboutme/"
-  Astrology:
-    - Daily Horoscopes: "/dailyhoroscopes/"
-    - Personal Horoscope: "/personalhoroscope/"
-  Contact me: "/contactme/"
 
 ################
 # --- Logo --- #
@@ -24,14 +16,6 @@ navbar-links:
 avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
 logo_link: "/"        # ← 로고 클릭 시 이동 경로
-
-#####################################
-# --- Navbar navigation links --- #
-#####################################
-navbar-links:
-  About: "/about"
-  Blog: "/posts"
-  All Pages: "/all-pages"
 
 #####################################
 # --- Footer social media links --- #
@@ -43,7 +27,7 @@ social-network-links:
   youtube: "@daattali"
   discord: "invite_code"
 
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: "Astrology, Numerology, and other mystical topics. Explore the world of the unseen with Arion-Ayin."
 
 ###########################
 # --- General options --- #
@@ -127,3 +111,4 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
