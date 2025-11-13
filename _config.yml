@@ -2,8 +2,8 @@
 # --- Required options --- #
 ############################
 
-title: Arion-ayin          # Name of website
-author: Lio
+title: Arion.ayin          # Name of website
+author: arion.ayin
 lang: en
 description: "Astrology, Numerology, and other mystical topics. Explore the world of the unseen with Arion-Ayin."
 url: "https://Arion-Ayin.github.io"
@@ -23,7 +23,7 @@ logo_link: "/"        # ← 로고 클릭 시 이동 경로
 #####################################
 
 social-network-links:
-  email: "studiosaan33@gmail.com"
+  email: "arion.ayin@gmail.com"
   rss: true
   youtube: "@daattali"
   discord: "invite_code"
