@@ -23,6 +23,7 @@ logo_link: "/"        # ← 로고 클릭 시 이동 경로
 navbar-links:
   About: "/about"
   Blog: "/posts"
+  All Pages: "/all-pages"
 
 #####################################
 # --- Footer social media links --- #

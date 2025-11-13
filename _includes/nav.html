@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-short-permanent">
 
   {%- if site.title-img -%}
     <a class="navbar-brand navbar-brand-logo" href="{{ '/' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
@@ -12,9 +12,9 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
-      {%- for link in site.data.ui-text[site.lang].nav -%}
+      {%- for link in site.navbar-links -%}
         <li class="nav-item">
-          <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}</a>
+          <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
         </li>
       {%- endfor -%}
       {% if site.post_search %}
