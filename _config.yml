@@ -4,11 +4,19 @@
 
 title: Arion-Ayin          # Name of website
 author: Lio
-description: "Astrology, Numerology, and other mystical topics. Explore the world of the unseen with Arion-Ayin."
 url: "https://Arion-Ayin.github.io"
 baseurl: "" 
 
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
 
+navbar-links:
+  About Me: "/aboutme/"
+  Astrology:
+    - Daily Horoscopes: "/dailyhoroscopes/"
+    - Personal Horoscope: "/personalhoroscope/"
+  Contact me: "/contactme/"
 
 ################
 # --- Logo --- #
@@ -35,7 +43,7 @@ social-network-links:
   youtube: "@daattali"
   discord: "invite_code"
 
-rss-description: "Astrology, Numerology, and other mystical topics. Explore the world of the unseen with Arion-Ayin."
+rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #

@@ -2,17 +2,7 @@
 
 # English (default)
 # -----------------
-  nav:
-    - title: "Home"
-      url: "/"
-    - title: "About"
-      url: "/aboutme"
-    - title: "Apps"
-      url: "/apps"
-    - title: "Astrology"
-      url: "/dailyhoroscopes"
-    - title: "Contact me"
-      url: "/contactme"
+en: &DEFAULT_EN
   comments_label             : "Leave a comment"
   comments_title             : "Comments"
   comment_form_info          : "Your email address will not be published. Required fields are marked"
@@ -228,17 +218,6 @@ ne-NP:
 # Korean
 # ------
 ko: &DEFAULT_KO
-  nav:
-    - title: "Home"
-      url: "/"
-    - title: "About"
-      url: "/aboutme"
-    - title: "Apps"
-      url: "/apps"
-    - title: "Astrology"
-      url: "/dailyhoroscopes"
-    - title: "Contact me"
-      url: "/contactme"
   comments_label             : "댓글남기기"
   comments_title             : "댓글"
   comment_form_info          : "이메일은 공개되지 않습니다. 작성 필요 필드:"
