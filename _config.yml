@@ -113,3 +113,11 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+staticman:
+  repository: 'Arion-Ayin/Arion-Ayin.github.io'
+  branch: 'main'
+  endpoint: 'https://staticman.jasonatepaint.com/v3/entry/github/'
+
+reCaptcha:
+  siteKey: '6Le2CwssAAAAAHnLrupEl13l8de6aCMKwA5ZNyXT'
+  secret: '6Le2CwssAAAAAEYC_MBKMIELWK6FIrzDp3hVeRjI'
