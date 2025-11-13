@@ -36,3 +36,16 @@
     <script src="{{ js | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const navbar = document.querySelector('.navbar-custom');
+  const toggler = document.querySelector('.navbar-toggler');
+
+  if (toggler) {
+    toggler.addEventListener('click', function() {
+      navbar.classList.toggle('open');
+    });
+  }
+});
+</script>
