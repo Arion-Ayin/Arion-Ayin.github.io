@@ -28,12 +28,17 @@ layout: page
       <div class="post-card-image">
         <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
       </div>
-      <div class="post-card-title">
-        <h2>{{ post.title | strip_html }}</h2>
-      </div>
+      <div class="post-card-content">
+        <h2 class="post-card-title">{{ post.title | strip_html }}</h2>
+        {% if post.subtitle %}
+          <p class="post-card-subtitle">{{ post.subtitle }}</p>
+        {% endif %}
       {% else %}
-      <div class="post-card-title-no-image">
-        <h2>{{ post.title | strip_html }}</h2>
+      <div class="post-card-content post-card-content-no-image">
+        <h2 class="post-card-title">{{ post.title | strip_html }}</h2>
+        {% if post.subtitle %}
+          <p class="post-card-subtitle">{{ post.subtitle }}</p>
+        {% endif %}
       </div>
       {% endif %}
     </div>

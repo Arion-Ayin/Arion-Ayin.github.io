@@ -2,6 +2,7 @@
 layout: post
 title: "중요한 계약을 앞두고 있나요?"
 subtitie: "보이드 오브 코스를 알아야하는 이유"
+thumbnail-img: "/assets/img/404-southpark.jpg"
 ---
 
 

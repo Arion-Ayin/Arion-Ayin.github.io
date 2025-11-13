@@ -1219,7 +1219,7 @@ main.container-md, main.container-fluid {
   /* Post Card Grid Layout */
   .post-cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2rem;
     padding: 0;
     margin: 2rem 0;
@@ -1263,29 +1263,30 @@ main.container-md, main.container-fluid {
     object-fit: cover;
   }
   
-  .post-card-title {
+  .post-card-content {
     padding: 1rem;
     flex-grow: 1;
-  }
-  
-  .post-card-title h2 {
-    font-size: 1.25rem;
-    margin: 0;
-    line-height: 1.3;
-  }
-  
-  /* Fallback for no image */
-  .post-card-title-no-image {
-    padding: 1rem;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    flex-grow: 1;
   }
-  .post-card-title-no-image h2 {
+
+  .post-card-content-no-image {
+    background-color: #f8f8f8; /* A slightly different background for cards without images */
+  }
+  
+  .post-card-content h2.post-card-title {
     font-size: 1.25rem;
-    margin: 0;
+    margin: 0 0 0.5rem 0; /* Add some margin below the title */
     line-height: 1.3;
+    color: var(--text-col);
+  }
+
+  .post-card-content p.post-card-subtitle {
+    font-size: 0.95rem;
+    color: var(--mid-col);
+    margin: 0;
+    line-height: 1.4;
   }
   
