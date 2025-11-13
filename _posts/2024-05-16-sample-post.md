@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Sample Post"
+title: "중요한 계약을 앞두고 있나요?"
+subtitie: "보이드 오브 코스를 알아야하는 이유"
 ---
 
-This is a sample post. You can delete this file and create your own posts.
 
-To create a new post, create a file in the `_posts` directory with the format `YYYY-MM-DD-title.md`.
+# 처음 사용해보는 깃헙 블로그 
