@@ -4,6 +4,13 @@ layout: null
 
 @import url("pygment_highlights.css");
 
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
 :root {
   /* config file CSS variables */
   --page-col: {{ site.page-col | default: "#FFFFFF" }};
@@ -19,8 +26,8 @@ layout: null
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
   /* common CSS variables */
-  --body-font: 'Lora', 'Times New Roman', serif;
-  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --body-font: 'Freesentation-9Black', 'Lora', 'Times New Roman', serif;
+  --header-font: 'Freesentation-9Black', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
 }
 
