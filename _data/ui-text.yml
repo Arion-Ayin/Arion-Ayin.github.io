@@ -4,8 +4,6 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Home"
-      url: "/"
     - title: "About Me"
       url: "/aboutme"
     - title: "Apps"
@@ -228,8 +226,6 @@ ne-NP:
 # ------
 ko: &DEFAULT_KO
   nav:
-    - title: "홈"
-      url: "/"
     - title: "소개"
       url: "/aboutme"
     - title: "앱"
