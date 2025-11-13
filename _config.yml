@@ -18,6 +18,13 @@ round-avatar: true
 logo_link: "/"        # ← 로고 클릭 시 이동 경로
 
 #####################################
+# --- Navbar navigation links --- #
+#####################################
+navbar-links:
+  About: "/about"
+  Blog: "/posts"
+
+#####################################
 # --- Footer social media links --- #
 #####################################
 
@@ -111,4 +118,3 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
