@@ -115,13 +115,15 @@ analytics:
 author:
   name             : "arion-ayin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**Fathoming the world\nwith the eyes of a lion**"
+  bio              : |
+    **Fathoming the world**
+    **with the eyes of a lion**
   location         : "Elsewhere"
   email            : arion.ayin@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arion.ayin@gmail.com"
+      #url: "mailto:arion.ayin@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
