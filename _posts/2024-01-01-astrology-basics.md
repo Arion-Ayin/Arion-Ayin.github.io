@@ -1,7 +1,7 @@
 ---
 title: "Astrology Basics"
 categories:
-  - Astrology
+  - 현대점성학 초급
 tags:
   - basics
 ---

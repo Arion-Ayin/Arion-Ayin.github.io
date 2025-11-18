@@ -1,7 +1,7 @@
 ---
 title: "Numerology Intro"
 categories:
-  - Numerology
+  - 수비학
 tags:
   - intro
 ---
