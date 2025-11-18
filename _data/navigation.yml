@@ -2,6 +2,10 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Astrology"
+    url: /categories/astrology/
+  - title: "Numerology"
+    url: /categories/numerology/
   - title: "Apps"
     url: /apps/
   - title: "Reserve"
