@@ -43,7 +43,8 @@
   (linkedin, $linkedin-color),
   (mastodon, $mastodon-color),
   (twitter, $twitter-color),
-  (x, $x-color);
+  (x, $x-color),
+  (threads, $threads-color);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
