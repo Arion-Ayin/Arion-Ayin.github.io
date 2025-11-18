@@ -22,6 +22,9 @@
             </li>
           {%- endfor -%}
         </ul>
+        <button id="language-switcher" type="button" style="background: none; border: none; cursor: pointer; font-size: 1.5em; padding: 0 10px; vertical-align: middle;">
+          <span id="language-flag">🇰🇷</span>
+        </button>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
