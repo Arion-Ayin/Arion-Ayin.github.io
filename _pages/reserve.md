@@ -1,3 +1,8 @@
+---
+layout: single
+title: "Reserve"
+permalink: /reserve/
+---
 <p>
   아래 양식을 통해 예약해주세요. 또는
   <a
