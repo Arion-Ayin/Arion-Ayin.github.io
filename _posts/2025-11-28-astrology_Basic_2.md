@@ -14,7 +14,7 @@ tags:
 
 점성학에서 **원소(Element)**는 에너지의 **'기본 성질'**을 의미합니다. 그 별자리가 무엇을 연료로 움직이는지 보여줍니다.
 
-![Zodiac Signs & Element](/assets/images/Elements.jpeg)
+[Zodiac Signs & Element](/assets/images/Zodiac_Signs.jpeg)
 
 🔥 화(Fire) - 직관과 열정
 
