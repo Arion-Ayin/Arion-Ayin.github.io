@@ -6,7 +6,8 @@
     {% assign category_name = category | first %}
     {% assign category_size = category | last | size %}
     <li>
-      <a href="{{ site.category_archive.path | default: '/categories/' | relative_url }}{{ category_name | slugify }}/">
+      {% assign slug = site.data.category_map[category_name] | default: category_name | slugify %}
+      <a href="{{ site.category_archive.path | default: '/categories/' | relative_url }}{{ slug }}/">
         {{ category_name }} ({{ category_size }})
       </a>
     </li>
