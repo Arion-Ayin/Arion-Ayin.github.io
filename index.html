@@ -2,12 +2,13 @@
 layout: splash
 author_profile: true
 header:
-overlay_image: /assets/images/Background.jpg
-overlay_filter: 0.5
-actions:
-- label: "About"
-url: "/about/"
+  overlay_image: /assets/images/Background.jpg
+  overlay_filter: 0.5
+  actions:
+    - label: "About"
+      url: "/about/"
 feature_row:
+<<<<<<< HEAD
 - image_path: /assets/images/Beginner.png
 alt: "현대점성학 초급"
 title: "현대점성학 초급"
@@ -36,6 +37,36 @@ excerpt: "숫자의 비밀과 당신의 삶에 미치는 영향을 알아보세�
 url: "/categories/numerology/"
 btn_label: "자세히 보기"
 btn_class: "btn--primary"
+=======
+  - image_path: /assets/images/Beginner.png
+    alt: "현대점성학 초급"
+    title: "현대점성학 초급"
+    excerpt: "점성학의 가장 기본적인 개념부터 시작합니다."
+    url: "/categories/astrology-beginner/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/Intermediate.jpg
+    alt: "현대점성학 중급"
+    title: "현대점성학 중급"
+    excerpt: "심화된 점성학 이론과 기술을 배웁니다."
+    url: "/categories/astrology-intermediate/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/Advanced.jpg
+    alt: "현대점성학 고급"
+    title: "현대점성학 고급"
+    excerpt: "전문적인 점성술사가 되기 위한 고급 과정을 탐구합니다."
+    url: "/categories/astrology-advanced/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/Numerology calculator.png
+    alt: "수비학"
+    title: "수비학"
+    excerpt: "숫자의 비밀과 당신의 삶에 미치는 영향을 알아보세요."
+    url: "/categories/numerology/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--primary"
+>>>>>>> parent of 7b7d303 (vv)
 ---
 
 {% include feature_row features=page.feature_row %}
@@ -46,3 +77,4 @@ btn_class: "btn--primary"
 <div class="entries-list">
   {% include documents-collection.html entries=limited_posts type='list' %}
 </div>
+
