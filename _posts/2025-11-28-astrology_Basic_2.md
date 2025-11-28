@@ -14,7 +14,7 @@ tags:
 
 점성학에서 **원소(Element)**는 에너지의 **'기본 성질'**을 의미합니다. 그 별자리가 무엇을 연료로 움직이는지 보여줍니다.
 
-[Zodiac Signs & Element](/assets/images/Zodiac_Signs.jpeg)
+![Zodiac Signs & Element](/assets/images/Zodiac_Signs.jpeg)
 
 🔥 화(Fire) - 직관과 열정
 
@@ -72,4 +72,4 @@ tags:
 
         물고기자리 (Pisces): 넓은 바다 (포용/영성)
 
-(다음 포스팅에서는 4원소와 3특질에 대해 다룹니다.)
+(다음 포스팅에서는 3대 특질(카디날, 픽스드, 뮤터블)에 대해 배웁니다.)
