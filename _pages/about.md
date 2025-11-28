@@ -30,7 +30,7 @@ layout: single
 
 ---
 
-# [What we made](/apps/)
+# [What we made?](/apps/)
 
 궁금한 점이나 소통하고 싶은 이야기가 있다면 언제든 환영합니다.
 📧 이메일: arion.ayin@gmail.com
