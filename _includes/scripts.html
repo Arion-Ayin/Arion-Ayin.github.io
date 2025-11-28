@@ -1,0 +1,58 @@
+{% if site.footer_scripts %}
+  {% for script in site.footer_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% else %}
+  <script src="{{ '/assets/js/vendor/jquery/jquery-3.6.0.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/plugins/gumshoe.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/plugins/jquery.ba-throttle-debounce.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/plugins/jquery.fitvids.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/plugins/jquery.greedy-navigation.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/plugins/jquery.magnific-popup.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/plugins/smooth-scroll.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/_main.js' | relative_url }}"></script>
+{% endif %}
+
+{% if site.search == true or page.layout == "search" %}
+  {%- assign search_provider = site.search_provider | default: "lunr" -%}
+  {%- case search_provider -%}
+    {%- when "lunr" -%}
+      {% include_cached search/lunr-search-scripts.html %}
+    {%- when "google" -%}
+      {% include_cached search/google-search-scripts.html %}
+    {%- when "algolia" -%}
+      {% include_cached search/algolia-search-scripts.html %}
+  {%- endcase -%}
+{% endif %}
+
+{% include analytics.html %}
+{% include /comments-providers/scripts.html %}
+
+{% if site.after_footer_scripts %}
+  {% for script in site.after_footer_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
+
+<!-- Back to Top Button -->
+<a id="back-to-top" href="#" class="back-to-top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var backToTop = document.getElementById("back-to-top");
+
+    window.addEventListener("scroll", function() {
+      if (window.pageYOffset > 100) {
+        backToTop.style.display = "block";
+      } else {
+        backToTop.style.display = "none";
+      }
+    });
+
+    backToTop.addEventListener("click", function(e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+</script>

@@ -1,0 +1,20 @@
+<div class="feature__row">
+  {% for feature in include.features %}
+    <div class="feature__item">
+      <div class="feature__item-image">
+        {% if feature.image_path %}
+          <a href="{{ feature.url }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}" style="max-width: 100%; height: auto; width: 150px;">
+          </a>
+        {% endif %}
+      </div>
+      <div class="feature__item-content">
+        <h3 class="feature__item-title">{{ feature.title }}</h3>
+        <p class="feature__item-excerpt">{{ feature.excerpt }}</p>
+        {% if feature.url %}
+          <p><a href="{{ feature.url }}" class="btn btn--primary" target="_blank" rel="noopener noreferrer">{{ feature.btn_label }}</a></p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

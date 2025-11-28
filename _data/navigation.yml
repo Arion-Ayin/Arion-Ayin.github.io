@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Apps"
+    url: /apps/
+  - title: "Reserve"
+    url: /reserve/
+  - title: "Review"
+    url: /review/
