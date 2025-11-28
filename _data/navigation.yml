@@ -4,7 +4,7 @@ main:
     url: /about/
   - title: "Apps"
     url: /apps/
-  - title: "Reserve"
-    url: /reserve/
-  - title: "Review"
-    url: /review/
+#   - title: "Reserve"
+#     url: /reserve/
+#   - title: "Review"
+#     url: /review/
