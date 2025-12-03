@@ -29,7 +29,7 @@
 </div>
 {% endif %}
 
-<div class="page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a> &nbsp;&bull;&nbsp; <a href="#" onclick="openPrivacyModal(); return false;">개인정보처리방침</a> &nbsp;&bull;&nbsp; <a href="#" onclick="openTermsModal(); return false;">이용약관</a></div>
+<div class="page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. All Rights Reserved. &nbsp;&bull;&nbsp; <a href="#" onclick="openPrivacyModal(); return false;">개인정보처리방침</a> &nbsp;&bull;&nbsp; <a href="#" onclick="openTermsModal(); return false;">이용약관</a></div>
 
 {% include privacy-policy-modal.html %}
 {% include terms-of-service-modal.html %}
