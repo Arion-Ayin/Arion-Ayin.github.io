@@ -1,5 +1,5 @@
 ---
-title: "4대 원소(The 4 Elements)_(Basic 2)"
+title: "[점성학 Basic] 4대 원소(The 4 Elements)_2"
 categories:
   - 현대점성학 초급
 tags:
@@ -20,7 +20,7 @@ tags:
 
 점성학에서 **원소(Element)**는 에너지의 **'기본 성질'**을 의미합니다. 그 별자리가 무엇을 연료로 움직이는지 보여줍니다.
 
-![Zodiac Signs & Element](/assets/images/Zodiac_Signs.jpeg)
+![Zodiac Signs & Element](/assets/images/Zodiac_Signs.png)
 
 🔥 화(Fire) - 직관과 열정
 
