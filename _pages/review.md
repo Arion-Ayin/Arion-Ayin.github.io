@@ -5,6 +5,7 @@ read_time: true
 comments: true
 share: true
 related: true
+overlay_image: /assets/images/_Background.jpg
+overlay_filter: 0.5
 ---
 
-This is the review page.
