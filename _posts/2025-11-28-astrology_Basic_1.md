@@ -1,4 +1,4 @@
----
+---//front matter
 title: "점성학의 정의와 12별자리_(Basic 1)"
 categories:
   - 현대점성학 초급
