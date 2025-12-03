@@ -4,7 +4,7 @@
       <div class="feature__item-image">
         {% if feature.image_path %}
           <a href="{{ feature.url }}" target="_blank" rel="noopener noreferrer">
-            <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}" style="max-width: 100%; height: auto; width: 150px;">
+            <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}" class="feature__item-img">
           </a>
         {% endif %}
       </div>
