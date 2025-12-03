@@ -49,8 +49,9 @@ feature_row:
 
 <h3 class="archive__subtitle">가장 최근 글</h3>
 
-{% assign limited_posts = site.posts | limit:2 %}
 <div class="entries-list">
-  {% include documents-collection.html entries=limited_posts type='list' %}
+  {% for post in site.posts limit:2 %}
+    {% include archive-single.html type='list' %}
+  {% endfor %}
 </div>
 
