@@ -3,7 +3,7 @@ title: "Apps"
 permalink: /apps/
 layout: splash
 header:
-  overlay_image: /assets/images/Background.jpg
+  overlay_image: /assets/images/_Background.jpg
   overlay_filter: 0.5
 feature_row:
   - image_path: /assets/images/Void of course.png

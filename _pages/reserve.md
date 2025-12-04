@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "Reserve"
-permalink: /reserve/
+permalink: /reserve/  
+overlay_image: /assets/images/_Background.jpg
+overlay_filter: 0.5
 ---
 <p>
   아래 양식을 통해 예약해주세요. 또는
