@@ -34,3 +34,15 @@ search: false
   line-height: inherit;
 }
 
+
+/* Interactive Enhancements */
+.feature__item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.feature__item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); 
+}
