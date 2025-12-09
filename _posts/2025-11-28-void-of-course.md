@@ -1,4 +1,7 @@
 ---
+sitemap:
+changefreq: daily
+priority : 1.0
 title: "중요한 계약을 할때, 왜 '보이드 타임'을 피해야 할까?"
 categories:
   - 현대점성학 공통
