@@ -1,7 +1,4 @@
 ---
-sitemap:
-changefreq: daily
-priority : 1.0
 title: "[점성학 Basic] 점성학의 정의와 12별자리_1"
 categories:
   - 현대점성학 초급
@@ -11,6 +8,9 @@ tags:
   - 태양
   - 달
   - 행성
+sitemap:
+changefreq: daily
+priority : 1.0
 ---
 
 [점성학 Basic] 점성학의 정의와 12별자리

@@ -24,5 +24,5 @@ layout: null
         <priority>{{ post.sitemap.priority }}</priority>
         {% endif %}
     </url>
-    {% endfor %}
+    {% endfor %}    
 </urlset>

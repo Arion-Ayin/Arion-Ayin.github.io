@@ -5,6 +5,9 @@ layout: single
 header:
   overlay_image: /assets/images/_Background.png
   overlay_filter: 0.5
+sitemap:
+changefreq: daily
+priority : 1.0
 ---
 
 **"사자의 눈으로 세상을 헤아립니다."**

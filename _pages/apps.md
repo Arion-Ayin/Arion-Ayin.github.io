@@ -20,6 +20,9 @@ feature_row:
     url: "https://play.google.com/store/apps/details?id=com.numerology.finderapp"
     btn_label: "Google Play"
     btn_class: "btn--primary"
+sitemap:
+changefreq: daily
+priority : 1.0
 ---
 
 {% include feature_row features=page.feature_row %}
