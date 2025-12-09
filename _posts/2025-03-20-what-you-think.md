@@ -1,4 +1,7 @@
 ---
+sitemap:
+changefreq: daily
+priority : 1.0
 title: "내가 점성학을 공부하게 된 이유"
 categories:
   - 내가 바라보는 세상

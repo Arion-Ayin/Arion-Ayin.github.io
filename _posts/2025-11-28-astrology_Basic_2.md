@@ -1,4 +1,7 @@
 ---
+sitemap:
+changefreq: daily
+priority : 1.0
 title: "[점성학 Basic] 4대 원소(The 4 Elements)_2"
 categories:
   - 현대점성학 초급

@@ -1,4 +1,7 @@
 ---
+sitemap:
+changefreq: daily
+priority : 1.0
 title: "[출생증명서] 내가 태어난 시간 아는 방법"
 categories:
   - 현대점성학 공통
@@ -25,6 +28,7 @@ tags:
   - 서울행정법원
   - 서울가정법원
   - 출생
+
 
 ---
 
