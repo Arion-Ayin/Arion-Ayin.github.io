@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://arion-ayin.github.io/sitemap.xml
+Sitemap: https://arion-ayin.github.io/my-sitemap.xml
