@@ -4,6 +4,9 @@ title: "Reserve"
 permalink: /reserve/  
 overlay_image: /assets/images/_Background.jpg
 overlay_filter: 0.5
+sitemap:
+changefreq: daily
+priority : 1.0
 ---
 <p>
   아래 양식을 통해 예약해주세요. 또는
