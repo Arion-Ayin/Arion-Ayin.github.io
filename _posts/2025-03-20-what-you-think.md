@@ -1,7 +1,4 @@
 ---
-sitemap:
-changefreq: daily
-priority : 1.0
 title: "내가 점성학을 공부하게 된 이유"
 categories:
   - 내가 바라보는 세상
@@ -11,6 +8,9 @@ tags:
   - 점성학
   - 점성술
   - 에세이
+sitemap:
+changefreq: daily
+priority : 1.0
 ---
 
 안녕하세요. 아리온아인입니다.

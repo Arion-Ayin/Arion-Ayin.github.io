@@ -1,7 +1,4 @@
 ---
-sitemap:
-changefreq: daily
-priority : 1.0
 title: "중요한 계약을 할때, 왜 '보이드 타임'을 피해야 할까?"
 categories:
   - 현대점성학 공통
@@ -13,6 +10,9 @@ tags:
   - 보이드
   - Moon
   - 달
+sitemap:
+changefreq: daily
+priority : 1.0
 ---
 
 Void of course(보이드 오브 코스)는 달이 어떤 행성과도 각을 맺지 않는 상태를 말합니다.

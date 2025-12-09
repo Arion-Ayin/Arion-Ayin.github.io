@@ -1,7 +1,4 @@
 ---
-sitemap:
-changefreq: daily
-priority : 1.0
 title: "[점성학 Basic] 3대 특질(The 3 Qualities)_3"
 categories:
   - 현대점성학 초급
@@ -14,6 +11,9 @@ tags:
   - 카디날
   - 픽스드
   - 뮤터블
+sitemap:
+changefreq: daily
+priority : 1.0
 ---
 
 [점성학 Basic] 3대 특질 (The 3 Qualities)
