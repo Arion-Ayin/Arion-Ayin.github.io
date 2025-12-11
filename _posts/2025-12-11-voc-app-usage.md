@@ -5,6 +5,21 @@ categories:
 tags:
   - App
   - VOC
+  - void of course
+  - 보이드 오브 코스
+  - 달의 위상
+  - 달의 별자리
+  - 달의 싸인
+  - Void
+  - Moon
+  - Moon Void
+  - Moon Void of Course
+  - Moon Sign
+  - Moon Aspect
+  - Moon Phase
+  - Moon Sign of Course
+  - Moon Aspect of Course
+  - Moon Phase of Course
 pinned: true
 ---
 

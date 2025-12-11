@@ -5,6 +5,19 @@ categories:
 tags:
   - App
   - Numerology
+  - 수비학
+  - 피타고라스
+  - 인생여정수
+  - 운명수
+  - 혼의수
+  - 성격수
+  - 완성수
+  - 생일수
+  - 1년수
+  - 1달수
+  - 점성학
+  - 오컬트
+  - occult
 pinned: true
 ---
 
