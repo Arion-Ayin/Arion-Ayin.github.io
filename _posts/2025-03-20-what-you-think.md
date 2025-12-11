@@ -1,5 +1,5 @@
 ---
-title: "내가 점성학을 공부하게 된 이유"
+title: "왜 점성학인가?"
 categories:
   - 내가 바라보는 세상
 tags:
@@ -7,7 +7,6 @@ tags:
   - 인사이트
   - 점성학
   - 점성술
-  - 에세이
 sitemap:
 changefreq: daily
 priority : 1.0
