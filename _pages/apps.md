@@ -13,7 +13,7 @@ feature_row:
     url: "https://play.google.com/store/apps/details?id=dev.lioluna.voidofcourse"
     btn_label: "Google Play"
     btn_class: "btn--primary"
-  - image_path: /assets/images/Numerology calculator.png
+  - image_path: /assets/images/Category/Numerology calculator.png
     alt: "Numerology calculator"
     title: "Numerology calculator"
     excerpt: "수비학 계산을 쉽게 할 수 있는 계산기입니다."
