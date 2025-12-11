@@ -37,8 +37,7 @@ comments:
   provider               : "cusdis"
   cusdis:
     app_id               : "E0D12818-FD20-436B-9147-01FF3302486E" # https://cusdis.com/dashboard
-  disqus:
-    shortname            : "arion-ayin-github-io" # your Disqus shortname
+
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
