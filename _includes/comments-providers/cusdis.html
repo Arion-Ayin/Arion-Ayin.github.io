@@ -1,17 +1,8 @@
-<iframe
-  id="cusdis_iframe"
-  src="https://cusdis.com/widget?app-id={{ site.comments.cusdis.app_id | url_encode }}&page-id={{ page.url | url_encode }}&page-url={{ page.url | absolute_url | url_encode }}&page-title={{ page.title | url_encode }}"
-  style="width: 100%; min-height: 400px; border: 0;"
-  frameborder="0"
-  scrolling="no"
-></iframe>
-<script>
-window.addEventListener('message', function(e) {
-  if (e.origin === 'https://cusdis.com') {
-    var iframe = document.getElementById('cusdis_iframe');
-    if (iframe && e.data && typeof e.data.h === 'number') {
-      iframe.style.height = e.data.h + 'px';
-    }
-  }
-});
-</script>
+<div id="cusdis_thread"
+  data-host="{{ site.comments.cusdis.host | default: 'https://cusdis.com' }}"
+  data-app-id="{{ site.comments.cusdis.app_id }}"
+  data-page-id="{{ page.url }}"
+  data-page-url="{{ page.url | absolute_url }}"
+  data-page-title="{{ page.title }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
