@@ -21,7 +21,7 @@ title                    : "Arion-ayin"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "arion-ayin"
-description              : "점성학, 수비학, 그리고 보이드 오브 코스 앱 가이드"
+description              : "현대점성학"
 url                      : "https://arion-ayin.github.io" # 나중에 도메인을 구매하고 했을때는 Url을 바꿔주면 될거야. ㅡ 와.... 그래. 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
