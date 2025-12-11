@@ -1,8 +1,8 @@
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
-  data-app-id="{{ site.comments.cusdis.app_id }}"
-  data-page-id="{{ page.url }}"
-  data-page-url="{{ page.url | absolute_url }}"
-  data-page-title="{{ page.title }}"
+  data-app-id="{{ site.comments.cusdis.app_id | xml_escape }}"
+  data-page-id="{{ page.url | xml_escape }}"
+  data-page-url="{{ page.url | absolute_url | xml_escape }}"
+  data-page-title="{{ page.title | xml_escape }}"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
