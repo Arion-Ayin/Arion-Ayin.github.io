@@ -34,7 +34,9 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : "disqus"
+  provider               : "cusdis"
+  cusdis:
+    app_id               : "E0D12818-FD20-436B-9147-01FF3302486E" # https://cusdis.com/dashboard
   disqus:
     shortname            : "arion-ayin-github-io" # your Disqus shortname
   discourse:
