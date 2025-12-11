@@ -58,7 +58,6 @@ pinned: true
 ### 4. 설정 (Settings)
 
 <img src="/assets/images/Contents/app-usages/V_setting.png" width="250" style="display: block; margin: 0 auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<br>
 
 **주요 기능:**
 *   **알림 설정**: 보이드 알람을 켜두면 중요한 타이밍을 놓치지 않도록 도와줍니다.
