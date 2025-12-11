@@ -3,7 +3,7 @@ title: "Arion-Ayin"
 permalink: /about/
 layout: single
 header:
-  overlay_image: /assets/images/_Background.png
+  overlay_image: /assets/images/Category/_Background.png
   overlay_filter: 0.5
 sitemap:
 changefreq: daily

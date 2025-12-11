@@ -3,10 +3,10 @@ title: "Apps"
 permalink: /apps/
 layout: splash
 header:
-  overlay_image: /assets/images/_Background.jpg
+  overlay_image: /assets/images/Category/_Background.jpg
   overlay_filter: 0.5
 feature_row:
-  - image_path: /assets/images/Void of course.png
+  - image_path: /assets/images/Category/Void of course.png
     alt: "Void of course"
     title: "Void of course"
     excerpt: "달의 공허 시간을 알려주는 어플리케이션입니다."

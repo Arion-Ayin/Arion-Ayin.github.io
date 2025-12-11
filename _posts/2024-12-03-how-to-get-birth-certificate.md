@@ -56,10 +56,10 @@ Astrology(점성학)를 공부하며, 저 스스로에 대한 정확한 해석�
 
 ## 📍 서울가정법원 가는 길
 
-![서울 가정법원 네이버 지도](/assets/images/Courthouse_Map.png)
+![서울 가정법원 네이버 지도](/assets/images/Category/Contents/Common/Courthouse_Map.png)
 *위 지도에는 서울행정법원으로 나와있지만, 서울가정법원과 같은 건물을 사용합니다.*
 
-![서울 가정법원 지도_1](/assets/images/Courthouse.png)
+![서울 가정법원 지도_1](/assets/images/Category/Contents/Common/Courthouse.png)
 *왼쪽 길로 들어가시면 됩니다.*
 
 <br>
@@ -68,14 +68,14 @@ Astrology(점성학)를 공부하며, 저 스스로에 대한 정확한 해석�
 
 법원 내부에서는 사진 촬영이 금지되어 있어, 그림으로 설명을 대신합니다.
 
-![서울 가정법원 지도_2](/assets/images/Courthouse_Map_2.png)
+![서울 가정법원 지도_2](/assets/images/Category/Contents/Common/Courthouse_Map_2.png)
 
 1.  **보안 검색**: 건물 진입 시 짐 검사를 거쳐야 합니다. 위협이 되지 않는 인물임을 증명하고 엘리베이터에 탑승합니다.
 2.  **8층으로 이동**: 변호사님들과 정장을 입은 분들 사이에서 자연스럽게 8층 버튼을 누릅니다.
 
 ### 8층 가족관계등록과
 
-![서울 가정법원 지도_3](/assets/images/Courthouse_Map_3.png)
+![서울 가정법원 지도_3](/assets/images/Category/Contents/Common/Courthouse_Map_3.png)
 
 1.  8층에 도착하여 왼쪽으로 꺾어 통로를 지나면 큰 사무실이 나옵니다.
 2.  사무실 안쪽으로 들어가면 **간이 접견실**이 마련되어 있습니다.
@@ -91,7 +91,7 @@ Astrology(점성학)를 공부하며, 저 스스로에 대한 정확한 해석�
 
 ## ✨ 발급 완료
 
-![서울 가정법원 지도_4](/assets/images/Courthouse_Map_4.png)
+![서울 가정법원 지도_4](/assets/images/Category/Contents/Common/Courthouse_Map_4.png)
 *발급받은 출생증명서 (복사본)*
 
 **30세 이전** 기록까지 보관된다고 하니, 다행히 찾을 수 있었습니다. 무엇보다 부모님의 친필 글씨를 직접 볼 수 있어 매우 뜻깊은 시간이었습니다.
