@@ -48,13 +48,13 @@ textarea {
 /* Buttons */
 .gsc-comment-box-button,
 button {
-  background-color: #2da44e !important;
+  background-color: #000000 !important;
   color: #ffffff !important;
 }
 
 .gsc-comment-box-button:hover,
 button:hover {
-  background-color: #2c974b !important;
+  background-color: #000000 !important;
 }
 
 /* Ensure all text is black */
