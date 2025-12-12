@@ -195,3 +195,23 @@ search: false
   margin-bottom: 2em;
   font-size: 1.1em;
 }
+
+/* Sticky Footer - keeps footer at bottom */
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.initial-content {
+  flex: 1 0 auto;
+}
+
+.page__footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
