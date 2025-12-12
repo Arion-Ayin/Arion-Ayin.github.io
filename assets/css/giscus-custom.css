@@ -1,63 +1,109 @@
-/* Giscus Custom Theme - Based on noborder_dark with black text */
+/*!
+ * Giscus Custom Theme
+ * Based on GitHub Dark High Contrast
+ * With custom override for black reaction/comment counts
+ */
 
-/* Main text color - change to black */
-.gsc-reactions-count,
-.gsc-comments-count,
-.gsc-comment-author-name,
-.gsc-comment-content,
-.gsc-reactions-button,
-.gsc-comment-header,
-.gsc-comment-footer,
-.gsc-timeline-header,
-.gsc-homepage-bg {
+main {
+  --color-prettylights-syntax-comment: #8b949e;
+  --color-prettylights-syntax-constant: #79c0ff;
+  --color-prettylights-syntax-entity: #d2a8ff;
+  --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+  --color-prettylights-syntax-entity-tag: #7ee787;
+  --color-prettylights-syntax-keyword: #ff7b72;
+  --color-prettylights-syntax-string: #a5d6ff;
+  --color-prettylights-syntax-variable: #ffa657;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #f0f6fc;
+  --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+  --color-prettylights-syntax-invalid-illegal-bg: #8b949e;
+  --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+  --color-prettylights-syntax-carriage-return-bg: #b1bac4;
+  --color-prettylights-syntax-string-regexp: #7ee787;
+  --color-prettylights-syntax-markup-list: #f2cc60;
+  --color-prettylights-syntax-markup-heading: #1f6feb;
+  --color-prettylights-syntax-markup-italic: #c9d1d9;
+  --color-prettylights-syntax-markup-bold: #c9d1d9;
+  --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+  --color-prettylights-syntax-markup-deleted-bg: #67060c;
+  --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+  --color-prettylights-syntax-markup-inserted-bg: #033a16;
+  --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+  --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+  --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+  --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+  --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+  --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+  --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+  --color-btn-text: #f0f6fc;
+  --color-btn-bg: #21262d;
+  --color-btn-border: #6e7681;
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: #30363d;
+  --color-btn-hover-border: #8b949e;
+  --color-btn-active-bg: #282e33;
+  --color-btn-active-border: #6e7681;
+  --color-btn-selected-bg: #30363d;
+  --color-btn-primary-text: #ffffff;
+  --color-btn-primary-bg: #347d39;
+  --color-btn-primary-border: rgba(240, 246, 252, 0.1);
+  --color-btn-primary-shadow: 0 0 transparent;
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: #46954a;
+  --color-btn-primary-hover-border: rgba(240, 246, 252, 0.1);
+  --color-btn-primary-selected-bg: #347d39;
+  --color-btn-primary-selected-shadow: 0 0 transparent;
+  --color-btn-primary-disabled-text: rgba(240, 246, 252, 0.5);
+  --color-btn-primary-disabled-bg: rgba(52, 125, 57, 0.6);
+  --color-btn-primary-disabled-border: rgba(240, 246, 252, 0.1);
+  --color-action-list-item-default-hover-bg: rgba(177, 186, 196, 0.12);
+  --color-action-list-item-default-hover-border: 0;
+  --color-action-list-item-default-active-bg: rgba(177, 186, 196, 0.2);
+  --color-action-list-item-default-active-border: 0;
+  --color-action-list-item-default-selected-bg: rgba(177, 186, 196, 0.08);
+  --color-action-list-item-default-selected-border: 0;
+  --color-action-list-item-danger-hover-bg: rgba(248, 81, 73, 0.16);
+  --color-action-list-item-danger-active-bg: rgba(248, 81, 73, 0.24);
+  --color-action-list-item-danger-hover-text: #ff7b72;
+  --color-fg-default: #f0f6fc;
+  --color-fg-muted: #8b949e;
+  --color-fg-subtle: #484f58;
+  --color-canvas-default: #0d1117;
+  --color-canvas-overlay: #161b22;
+  --color-canvas-inset: #010409;
+  --color-canvas-subtle: #161b22;
+  --color-border-default: #30363d;
+  --color-border-muted: #21262d;
+  --color-neutral-muted: rgba(110, 118, 129, 0.4);
+  --color-accent-fg: #58a6ff;
+  --color-accent-emphasis: #1f6feb;
+  --color-accent-muted: rgba(56, 139, 253, 0.4);
+  --color-accent-subtle: rgba(56, 139, 253, 0.15);
+  --color-success-fg: #3fb950;
+  --color-success-emphasis: #238636;
+  --color-success-muted: rgba(46, 160, 67, 0.4);
+  --color-success-subtle: rgba(46, 160, 67, 0.15);
+  --color-attention-fg: #d29922;
+  --color-attention-emphasis: #9e6a03;
+  --color-attention-muted: rgba(187, 128, 9, 0.4);
+  --color-attention-subtle: rgba(187, 128, 9, 0.15);
+  --color-severe-fg: #db6d28;
+  --color-severe-emphasis: #bd561d;
+  --color-severe-muted: rgba(219, 109, 40, 0.4);
+  --color-severe-subtle: rgba(219, 109, 40, 0.15);
+  --color-danger-fg: #f85149;
+  --color-danger-emphasis: #da3633;
+  --color-danger-muted: rgba(248, 81, 73, 0.4);
+  --color-danger-subtle: rgba(248, 81, 73, 0.15);
+  --color-primer-shadow-inset: 0 0 transparent;
+  --color-primer-shadow-focus: 0 0 0 3px #0c2d6b;
+  --color-scale-gray-7: #21262d;
+  --color-scale-blue-8: #0c2d6b;
+}
+
+main .gsc-reactions-count,
+main .gsc-comments-count {
   color: #000000 !important;
-}
-
-/* Reaction and comment count - black text */
-.gsc-reactions-count,
-.gsc-comments-count {
-  color: #000000 !important;
-  font-weight: 600 !important;
-}
-
-/* Links */
-a {
-  color: #000000 !important;
-}
-
-a:hover {
-  color: #0550ae !important;
-}
-
-/* Background colors */
-.gsc-comment-box,
-.gsc-comment,
-.gsc-reply-box {
-  background-color: #ffffff !important;
-  border: 1px solid #d0d7de !important;
-}
-
-/* Input fields */
-.gsc-comment-box-textarea,
-textarea {
-  background-color: #f6f8fa !important;
-  color: #ff3232 !important;
-  border: 1px solid #d0d7de !important;
-}
-
-/* Buttons */
-.gsc-comment-box-button,
-button {
-  background-color: #5663ac !important;
-  color: #ffffff !important;
-}
-
-.gsc-comment-box-button:hover,
-button:hover {
-  background-color: #7e5252 !important;
-}
-
-/* Ensure all text is black */
-* {
-  color: #000000 !important;
+  font-weight: 700;
 }
