@@ -22,7 +22,7 @@
 
 /* Links */
 a {
-  color: #0969da !important;
+  color: #000000 !important;
 }
 
 a:hover {
@@ -41,20 +41,20 @@ a:hover {
 .gsc-comment-box-textarea,
 textarea {
   background-color: #f6f8fa !important;
-  color: #000000 !important;
+  color: #ff3232 !important;
   border: 1px solid #d0d7de !important;
 }
 
 /* Buttons */
 .gsc-comment-box-button,
 button {
-  background-color: #000000 !important;
+  background-color: #5663ac !important;
   color: #ffffff !important;
 }
 
 .gsc-comment-box-button:hover,
 button:hover {
-  background-color: #000000 !important;
+  background-color: #7e5252 !important;
 }
 
 /* Ensure all text is black */
