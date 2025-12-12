@@ -24,7 +24,7 @@ name                     : "arion-ayin"
 description              : "현대점성학"
 url                      : "https://arion-ayin.github.io" # 나중에 도메인을 구매하고 했을때는 Url을 바꿔주면 될거야. ㅡ 와.... 그래. 
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Arion-Ayin/Arion-Ayin.github.io" # GitHub username/repo-name for Giscus
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -49,9 +49,9 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
-    repo_id              : "PLACEHOLDER_REPO_ID" # TODO: Get from https://giscus.app
+    repo_id              : "R_kgDOQeisJA" # From https://giscus.app
     category_name        : "General" # Full text name of the category
-    category_id          : "PLACEHOLDER_CATEGORY_ID" # TODO: Get from https://giscus.app
+    category_id          : "DIC_kwDOQeisJM4CzrrZ" # From https://giscus.app
     discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
     theme                : "preferred_color_scheme" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
