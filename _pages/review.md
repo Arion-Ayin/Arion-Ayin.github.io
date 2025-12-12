@@ -13,9 +13,7 @@ priority : 1.0
 layout: single
 ---
 
-<div class="review-section">
-  <h2 class="review-title">사용자 리뷰</h2>
-  <p class="review-description">여러분의 소중한 의견을 들려주세요!</p>
-  
-  {% include comments.html %}
-</div>
+
+## 사용자 리뷰
+
+여러분의 소중한 의견을 들려주세요!
