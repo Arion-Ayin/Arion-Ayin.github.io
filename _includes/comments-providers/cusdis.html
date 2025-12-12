@@ -14,6 +14,25 @@
   margin-top: 2em;
 }
 
+/* Reorder layout: comments above form */
+#cusdis_thread iframe {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Comments section appears first */
+#cusdis_thread .cusdis-comments,
+#cusdis_thread [class*="comments"] {
+  order: 1 !important;
+}
+
+/* Form appears second (below comments) */
+#cusdis_thread .cusdis-form,
+#cusdis_thread form,
+#cusdis_thread [class*="form"] {
+  order: 2 !important;
+}
+
 /* Override Cusdis default styles to create card layout */
 #cusdis_thread .cusdis-comment {
   background: rgba(255, 255, 255, 0.05) !important;
@@ -155,6 +174,34 @@
         author.setAttribute('data-initial', name.charAt(0).toUpperCase());
       }
     });
+    
+    // Reorder: move comments above form
+    try {
+      const iframe = document.querySelector('#cusdis_thread iframe');
+      if (iframe) {
+        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+        if (iframeDoc) {
+          const iframeBody = iframeDoc.body;
+          
+          // Find form and comments container
+          const form = iframeBody.querySelector('form') || iframeBody.querySelector('[class*="form"]');
+          const commentsContainer = iframeBody.querySelector('[class*="comments"]');
+          
+          if (form && commentsContainer && !form.hasAttribute('data-reordered')) {
+            // Mark as reordered to prevent infinite loop
+            form.setAttribute('data-reordered', 'true');
+            
+            // Move comments before form
+            if (form.parentNode === commentsContainer.parentNode) {
+              form.parentNode.insertBefore(commentsContainer, form);
+            }
+          }
+        }
+      }
+    } catch (e) {
+      // CORS restrictions or other errors
+      console.log('Cannot reorder iframe content:', e);
+    }
   }
 })();
 
