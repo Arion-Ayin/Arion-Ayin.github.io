@@ -197,8 +197,10 @@ search: false
 }
 
 /* Sticky Footer - keeps footer at bottom */
-html {
+html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -207,17 +209,27 @@ body {
   min-height: 100vh;
 }
 
-.initial-content {
+#main {
   flex: 1 0 auto;
 }
 
 .page__footer {
   flex-shrink: 0;
-  margin-top: auto;
+  margin-top: 0;
 }
 
 /* Remove gap between comments and footer */
 .page__comments {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
+}
+
+/* Ensure no gap after footer */
+.page__footer-follow {
+  margin-bottom: 0 !important;
+}
+
+.page__footer-copyright {
+  margin-bottom: 0 !important;
+  padding-bottom: 1em !important;
 }
