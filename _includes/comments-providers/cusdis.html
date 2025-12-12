@@ -157,4 +157,78 @@
     });
   }
 })();
+
+// Auto-adjust Cusdis iframe height to remove scrollbar
+(function() {
+  function adjustIframeHeight() {
+    const cusdisThread = document.getElementById('cusdis_thread');
+    if (!cusdisThread) return;
+    
+    // Find the Cusdis iframe
+    const iframe = cusdisThread.querySelector('iframe');
+    if (!iframe) return;
+    
+    try {
+      // Get the content height from iframe
+      const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+      if (iframeDoc && iframeDoc.body) {
+        const contentHeight = iframeDoc.body.scrollHeight;
+        if (contentHeight > 0) {
+          iframe.style.height = contentHeight + 'px';
+          iframe.style.overflow = 'hidden';
+        }
+      }
+    } catch (e) {
+      // Cross-origin restrictions - use alternative method
+      console.log('Using alternative height detection method');
+    }
+  }
+  
+  // Observe for iframe creation
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.addedNodes.length) {
+        const iframe = document.querySelector('#cusdis_thread iframe');
+        if (iframe) {
+          // Wait for iframe to load
+          iframe.addEventListener('load', function() {
+            adjustIframeHeight();
+            // Re-adjust after a delay to catch dynamic content
+            setTimeout(adjustIframeHeight, 500);
+            setTimeout(adjustIframeHeight, 1000);
+            setTimeout(adjustIframeHeight, 2000);
+          });
+          
+          // Also observe changes inside iframe
+          try {
+            const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+            if (iframeDoc) {
+              const iframeObserver = new MutationObserver(adjustIframeHeight);
+              iframeObserver.observe(iframeDoc.body, { 
+                childList: true, 
+                subtree: true,
+                attributes: true 
+              });
+            }
+          } catch (e) {
+            // Cross-origin restrictions
+            console.log('Cannot observe iframe content due to CORS');
+          }
+        }
+      }
+    });
+  });
+  
+  const cusdisThread = document.getElementById('cusdis_thread');
+  if (cusdisThread) {
+    observer.observe(cusdisThread, { childList: true, subtree: true });
+  }
+  
+  // Try on page load
+  window.addEventListener('load', function() {
+    setTimeout(adjustIframeHeight, 1000);
+    setTimeout(adjustIframeHeight, 2000);
+    setTimeout(adjustIframeHeight, 3000);
+  });
+})();
 </script>
