@@ -216,6 +216,19 @@ body {
 .page__footer {
   flex-shrink: 0;
   margin-top: 0;
+  position: relative;
+}
+
+/* Extend footer background to bottom of viewport */
+.page__footer::after {
+  content: '';
+  position: absolute;
+  bottom: -100vh;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: inherit;
+  z-index: -1;
 }
 
 /* Remove gap between comments and footer */
