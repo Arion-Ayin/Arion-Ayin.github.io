@@ -215,3 +215,9 @@ body {
   flex-shrink: 0;
   margin-top: auto;
 }
+
+/* Remove gap between comments and footer */
+.page__comments {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
