@@ -1,0 +1,244 @@
+﻿bundle : C:/Ruby34-x64
+/lib/ruby/gems/3.4.0/g
+ems/bundler-2.7.1/lib/
+bundler/dsl.rb:88:in '
+Bundler::Dsl#gemspec':
+  (Bundler::Dsl::DSLEr
+ror)
+At line:1 char:1
++ bundle exec jekyll b
+uild 2>&1 | Out-File -
+FilePath build_error.l
+og -E ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (C:/Ruby34-   
+ x64/l...:Dsl::DSL    
+Error):String) []    ,
+ RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+[!] There was an error
+ parsing `Gemfile`: Th
+ere are no gemspecs at
+ E:/CODE/Arion-Ayin.gi
+thub.io/Arion-Ayin.git
+hub.io. Bundler cannot
+ continue.
+
+ #  from E:/CODE/Arion
+-Ayin.github.io/Arion-
+Ayin.github.io/Gemfile
+:2
+ #  ------------------
+----------------------
+---
+ #  source "https://ru
+bygems.org"
+ >  gemspec
+ #  source "https://ru
+bygems.org"
+ #  ------------------
+----------------------
+---
+
+	from E:/CODE/Arion-Ay
+in.github.io/Arion-Ayi
+n.github.io/Gemfile:2:
+in 'block in Bundler::
+Dsl#eval_gemfile'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:47:in 'Bas
+icObject#instance_eval
+'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:47:in 'blo
+ck in Bundler::Dsl#eva
+l_gemfile'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:314:in 'Bu
+ndler::Dsl#with_gemfil
+e'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:45:in 'Bun
+dler::Dsl#eval_gemfile
+'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:12:in 'Bun
+dler::Dsl.evaluate'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/definition.rb:37:
+in 'Bundler::Definitio
+n.build'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler.rb:236:in 'Bundle
+r.definition'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler.rb:160:in 'Bundle
+r.setup'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/setup.rb:32:in 'b
+lock in <top (required
+)>'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/ui/shell.rb:173:i
+n 'Bundler::UI::Shell#
+with_level'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/ui/shell.rb:119:i
+n 'Bundler::UI::Shell#
+silence'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/setup.rb:32:in '<
+top (required)>'
+	from <internal:C:/Rub
+y34-x64/lib/ruby/3.4.0
+/rubygems/core_ext/ker
+nel_require.rb>:136:in
+ 'Kernel#require'
+	from <internal:C:/Rub
+y34-x64/lib/ruby/3.4.0
+/rubygems/core_ext/ker
+nel_require.rb>:136:in
+ 'Kernel#require'
+	from C:/Ruby34-x64/li
+b/ruby/3.4.0/rubygems.
+rb:1417:in '<top (requ
+ired)>'
+	from <internal:gem_pr
+elude>:2:in 'Kernel#re
+quire'
+	from <internal:gem_pr
+elude>:2:in '<internal
+:gem_prelude>'
+C:/Ruby34-x64/lib/ruby
+/gems/3.4.0/gems/bundl
+er-2.7.1/lib/bundler/d
+sl.rb:88:in 'Bundler::
+Dsl#gemspec': There ar
+e no gemspecs at E:/CO
+DE/Arion-Ayin.github.i
+o/Arion-Ayin.github.io
+ (Bundler::InvalidOpti
+on)
+	from E:/CODE/Arion-Ay
+in.github.io/Arion-Ayi
+n.github.io/Gemfile:2:
+in 'block in Bundler::
+Dsl#eval_gemfile'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:47:in 'Bas
+icObject#instance_eval
+'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:47:in 'blo
+ck in Bundler::Dsl#eva
+l_gemfile'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:314:in 'Bu
+ndler::Dsl#with_gemfil
+e'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:45:in 'Bun
+dler::Dsl#eval_gemfile
+'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/dsl.rb:12:in 'Bun
+dler::Dsl.evaluate'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/definition.rb:37:
+in 'Bundler::Definitio
+n.build'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler.rb:236:in 'Bundle
+r.definition'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler.rb:160:in 'Bundle
+r.setup'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/setup.rb:32:in 'b
+lock in <top (required
+)>'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/ui/shell.rb:173:i
+n 'Bundler::UI::Shell#
+with_level'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/ui/shell.rb:119:i
+n 'Bundler::UI::Shell#
+silence'
+	from C:/Ruby34-x64/li
+b/ruby/gems/3.4.0/gems
+/bundler-2.7.1/lib/bun
+dler/setup.rb:32:in '<
+top (required)>'
+	from <internal:C:/Rub
+y34-x64/lib/ruby/3.4.0
+/rubygems/core_ext/ker
+nel_require.rb>:136:in
+ 'Kernel#require'
+	from <internal:C:/Rub
+y34-x64/lib/ruby/3.4.0
+/rubygems/core_ext/ker
+nel_require.rb>:136:in
+ 'Kernel#require'
+	from C:/Ruby34-x64/li
+b/ruby/3.4.0/rubygems.
+rb:1417:in '<top (requ
+ired)>'
+	from <internal:gem_pr
+elude>:2:in 'Kernel#re
+quire'
+	from <internal:gem_pr
+elude>:2:in '<internal
+:gem_prelude>'

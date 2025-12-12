@@ -4,5 +4,157 @@
   data-page-id="{{ PAGE_ID }}"
   data-page-url="{{ PAGE_URL }}"
   data-page-title="{{ PAGE_TITLE }}"
+  data-theme="auto"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<style>
+/* Cusdis Card Customization */
+#cusdis_thread {
+  margin-top: 2em;
+}
+
+/* Override Cusdis default styles to create card layout */
+#cusdis_thread .cusdis-comment {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  padding: 1.5em !important;
+  margin-bottom: 1.5em !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+#cusdis_thread .cusdis-comment:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Comment author styling */
+#cusdis_thread .cusdis-comment-author {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.75em !important;
+  margin-bottom: 1em !important;
+  font-weight: 600 !important;
+  font-size: 1.1em !important;
+}
+
+/* Add avatar circle */
+#cusdis_thread .cusdis-comment-author::before {
+  content: attr(data-initial) !important;
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  color: white !important;
+  flex-shrink: 0 !important;
+}
+
+/* Comment content */
+#cusdis_thread .cusdis-comment-content {
+  line-height: 1.6 !important;
+  margin-top: 0.5em !important;
+  font-size: 0.95em !important;
+}
+
+/* Comment date */
+#cusdis_thread .cusdis-comment-date {
+  font-size: 0.85em !important;
+  opacity: 0.7 !important;
+  margin-top: 0.5em !important;
+}
+
+/* Form styling */
+#cusdis_thread .cusdis-form {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border-radius: 12px !important;
+  padding: 2em !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  margin-top: 2em !important;
+}
+
+#cusdis_thread input,
+#cusdis_thread textarea {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  padding: 0.75em !important;
+  width: 100% !important;
+  margin-bottom: 1em !important;
+  transition: border-color 0.3s ease !important;
+}
+
+#cusdis_thread input:focus,
+#cusdis_thread textarea:focus {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  outline: none !important;
+}
+
+#cusdis_thread button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 0.75em 2em !important;
+  color: white !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+#cusdis_thread button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4) !important;
+}
+
+/* Responsive grid for comments */
+@media (min-width: 768px) {
+  #cusdis_thread .cusdis-comments {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+    gap: 1.5em !important;
+  }
+}
+</style>
+
+<script>
+// Enhance Cusdis comments with card layout
+(function() {
+  // Wait for Cusdis to load
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.addedNodes.length) {
+        enhanceCusdisComments();
+      }
+    });
+  });
+  
+  // Start observing
+  const cusdisThread = document.getElementById('cusdis_thread');
+  if (cusdisThread) {
+    observer.observe(cusdisThread, { childList: true, subtree: true });
+  }
+  
+  // Also try after page load
+  window.addEventListener('load', function() {
+    setTimeout(enhanceCusdisComments, 1000);
+  });
+  
+  function enhanceCusdisComments() {
+    // Find all comment authors and add initial letter
+    const authors = document.querySelectorAll('#cusdis_thread .cusdis-comment-author');
+    authors.forEach(function(author) {
+      const name = author.textContent.trim();
+      if (name && !author.hasAttribute('data-initial')) {
+        author.setAttribute('data-initial', name.charAt(0).toUpperCase());
+      }
+    });
+  }
+})();
+</script>
