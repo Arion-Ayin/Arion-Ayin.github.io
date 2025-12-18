@@ -1,5 +1,5 @@
 ---
-title: "[점성학 Basic] 3대 특질(The 3 Qualities)_3"
+title: "[점성학 Basic] 3대 특질(The 3 Qualities)_4"
 categories:
   - 현대점성학 초급
 tags:
