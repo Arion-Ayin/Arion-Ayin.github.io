@@ -16,6 +16,9 @@ feature_row:
     url2: "/privacy-void-of-course/"
     btn_label2: "개인정보처리방침"
     btn2_class: "btn--info"
+    url3: "/terms-void-of-course/"
+    btn_label3: "이용약관"
+    btn3_class: "btn--info"
   - image_path: /assets/images/Category/Numerology calculator.png
     alt: "Numerology calculator"
     title: "Numerology calculator"

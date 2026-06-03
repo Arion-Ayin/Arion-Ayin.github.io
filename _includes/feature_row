@@ -71,6 +71,14 @@
                 {{ f.btn_label2 }}
               </a>
               {% endif %}
+              {% if f.url3 and f.btn_label3 %}
+              <a href="{{ f.url3 | relative_url }}" 
+                 class="btn {{ f.btn3_class | default: f.btn_class }}" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                {{ f.btn_label3 }}
+              </a>
+              {% endif %}
             </p>
           {% endif %}
         </div>
