@@ -1,5 +1,5 @@
 ---
-title: "보이드 오브 코스 앱 사용방법"
+title: "Void of course"
 categories:
   - 어플리케이션 사용방법
 tags:
@@ -23,7 +23,7 @@ tags:
 pinned: true
 ---
 
-보이드 오브 코스(Void of Course) 어플리케이션 사용방법에 대한 안내입니다.
+Void of course (보이드 오브 코스) 어플리케이션 사용방법에 대한 안내입니다.
 
 ---
 
