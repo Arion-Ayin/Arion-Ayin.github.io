@@ -13,6 +13,9 @@ feature_row:
     url: "https://play.google.com/store/apps/details?id=dev.lioluna.voidofcourse"
     btn_label: "Google Play"
     btn_class: "btn--primary"
+    url2: "/privacy-void-of-course/"
+    btn_label2: "개인정보처리방침"
+    btn2_class: "btn--info"
   - image_path: /assets/images/Category/Numerology calculator.png
     alt: "Numerology calculator"
     title: "Numerology calculator"

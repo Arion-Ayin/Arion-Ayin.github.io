@@ -63,6 +63,14 @@
                  rel="noopener noreferrer">
                 {{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}
               </a>
+              {% if f.url2 and f.btn_label2 %}
+              <a href="{{ f.url2 | relative_url }}" 
+                 class="btn {{ f.btn2_class | default: f.btn_class }}" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                {{ f.btn_label2 }}
+              </a>
+              {% endif %}
             </p>
           {% endif %}
         </div>
